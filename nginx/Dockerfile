@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM 192.168.57.100:5000/nikniming/ubuntu:14.04
 MAINTAINER Nik Niming "nik.niming@gmail.com"
 ENV REFRESHED_AT 2015-06-23
 RUN apt-get update
