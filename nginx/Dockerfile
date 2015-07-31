@@ -9,4 +9,4 @@ ADD nginx.conf /etc/nginx/nginx.conf
 ADD website /var/www/html/website
 EXPOSE 80
 
-ENTRYPOINT["nginx"]
+ENTRYPOINT ["/usr/sbin/nginx"]
